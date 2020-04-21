@@ -9,6 +9,15 @@ package pojo;
 public class user {
     private String name;
     private String age;
+    private String adress;
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
 
     public String getName() {
         return name;
